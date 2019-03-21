@@ -1,0 +1,45 @@
+﻿ table {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+   width: 70%;
+   text-align: center
+  
+}
+
+td{
+  text-align: center;
+   border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center
+}
+
+tr:nth-child(even) {
+  background-color: #b3b3ff;
+}
+th{
+  background-color:white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #e6e6ff;
+}
+
+#myHeader {
+  background-color: #e6e6ff;
+  color: #000080;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#test {
+  background-color: white;
+    text-align: center;
+  }
+  p.titulo {
+  font-size: 25px;
+  color: #000080;
+  text-align: center;  
+  }
