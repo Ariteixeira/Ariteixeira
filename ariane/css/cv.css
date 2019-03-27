@@ -1,0 +1,103 @@
+table {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+   width: 80%;
+   text-align: center
+
+}
+
+td{
+  text-align: center;
+   border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center
+}
+
+tr:nth-child(even) {
+  background-color: #b3b3ff;
+}
+th{
+  background-color:white;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+tr:nth-child(odd) {
+  background-color: #e6e6ff;
+}
+
+#myHeader {
+  background-color: #e6e6ff;
+  color: #000080;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#test {
+  background-color: white;
+    text-align: center;
+  }
+  p.titulo {
+  font-size: 25px;
+  color: #000080;
+  text-align: center;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .menu {
+    float: left;
+    width: 20%;
+	height: 100%;
+    text-align: center;
+	font-size: 26px;
+	color: #000080;
+	padding: 1px;
+	margin-top: 1px;
+	  }
+
+  .menu a {
+    padding: 4px;
+    margin-top: 7px;
+    display: block;
+    width: 100%;
+    color: black;
+	text-align: center;
+  }
+
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+  }
+
+  
+  .menu2 {
+    float: right;
+	width: 20%;
+	height: 100%;
+    padding: 2px;
+    margin-top: 1px;
+    text-align: center;
+		}
+		.menu3 {
+    float: right;
+	width: 20%;
+	height: 100%;
+    padding: 150px;
+    margin-top: 1px;
+    text-align: center;
+	background-color: #e5e5e5;
+	  }
+	  .menu4 {
+    float: left;
+    width: 20%;
+	height: 100%;
+    padding: 150px;
+    margin-top: 1px;
+    text-align: center;
+	background-color: #e5e5e5;
+	  }
