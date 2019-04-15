@@ -35,10 +35,10 @@ this.submit();
 
 $(document).ready(function(){
 if( localStorage.getItem("usuario") == "ariane" && localStorage.getItem("senha") =="1234"){
-  $('#conteudo1').text('Bem Vindo!');
+  $('#conteudo1').text('Bem vindo(a) a área reservada! Acesso PERMITIDO!');
 }
 
-else {$('#conteudo1').text('Infelizmente você não possui acesso á área restrita');
+else {$('#conteudo1').text('Acesso NEGADO!!!');
 }
 
 
